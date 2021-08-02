@@ -6,8 +6,6 @@ close all
 clear
 clc
 
-today_date = datestr(now,'yymmdd');
-
 main_dir = 'D:\NIMI\Programs\Cell_assembly\';
 
 if ~exist([main_dir,'data\'],'dir')==1

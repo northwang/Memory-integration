@@ -5,8 +5,6 @@ close all
 clear
 clc
 
-today_date = datestr(now,'yymmdd');
-
 main_dir = 'D:\Memory_integration\';
 
 if ~exist([main_dir,'data\'],'dir')==1
