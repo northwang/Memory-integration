@@ -1,9 +1,11 @@
 # Memory-integration
-These code are related to the article: Dynamic organization of cell assemblies in retrospective memory integration: a simulation study
+This is the simulation code used in the paper: "[Dynamic organization of cell assemblies in retrospective memory integration: a simulation study]"
 
-The purpose of the code is to simulate memory integration using a recurrent spiking neural network
+## Set up
+You need Matlab to run this code. We tested it on Matlab R2018b.
 
-The code are write in Matlab
+## Usage
+In the following we show how to reproduce the results reported in the paper. Raw simulation data will be stored in the D:\Memory_integration\data\.
 
 1. Run gene_orthogonal_input_coding_neuron.m to generate orthogonal coding pattern for input layer.
 2. Run gene_stim_patterns.m to generate stimuli file.
@@ -12,3 +14,7 @@ The code are write in Matlab
 5. Run Plot_weight_change.m to plot the weight change of pattern pairs of different degree across single item show time.
 6. Run Plot_overlap_change.m to plot the neural coding overlap change of pattern pairs of different degree across single item show time.
 7. Run Plot_firing_pattern_and_spike_train.m to get the firing pattern, spike train, inter-spike interval (ISI) and coeffecient of variation (CV) under different phases.
+
+## References
+
+Ye Wang et al., Dynamic organization of cell assemblies in retrospective memory integration: a simulation study
