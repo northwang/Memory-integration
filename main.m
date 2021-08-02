@@ -10,16 +10,17 @@ today_date = datestr(now,'yymmdd');
 
 main_dir = 'D:\Memory_integration\';
 
-if ~exist([main_dir,'figures_',num2str(today_date)],'dir')==1
-   mkdir([main_dir,'figures_',num2str(today_date)]);
+if ~exist([main_dir,'figures\'],'dir')==1
+   mkdir([main_dir,'figures\']);
 end
 
-if ~exist([main_dir,'data_',num2str(today_date)],'dir')==1
-   mkdir([main_dir,'data_',num2str(today_date)]);
+if ~exist([main_dir,'data\'],'dir')==1
+   mkdir([main_dir,'data\']);
 end
 
-Save_figure_dir = [main_dir,'figures_',num2str(today_date),'\'];
-Save_data_dir = [main_dir,'data_',num2str(today_date),'\'];
+Save_figure_dir = [main_dir,'figures\'];
+Save_data_dir = [main_dir,'data\'];
+
 
 %% Neuron numbers
 inp_neuron_num = 400;

@@ -5,15 +5,13 @@ close all
 clear
 clc
 
-today_date = datestr(now,'yymmdd');
-
 main_dir = 'D:\Memory_integration\';
 
-if ~exist([main_dir,'data_',num2str(today_date)],'dir')==1
-   mkdir([main_dir,'data_',num2str(today_date)]);
+if ~exist([main_dir,'data\'],'dir')==1
+   mkdir([main_dir,'data\']);
 end
 
-Save_data_dir = [main_dir,'data_',num2str(today_date),'\'];
+Save_data_dir = [main_dir,'data\'];
 
 coding_thre = 40;
 exc_exc_conn_rate = 0.2;
