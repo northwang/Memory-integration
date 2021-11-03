@@ -17,4 +17,4 @@ In the following we show how to reproduce the results reported in the paper. Raw
 
 ## References
 
-Ye Wang et al., Dynamic organization of cell assemblies in retrospective memory integration: a simulation study
+Ye Wang et al., Retrospective memory integration is accompanied with dynamic organization of cell assemblies
