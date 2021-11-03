@@ -1,5 +1,5 @@
 # Memory-integration
-This is the simulation code used in the paper: "[Dynamic organization of cell assemblies in retrospective memory integration: a simulation study]"
+This is the simulation code used in the paper: "[Retrospective memory integration is accompanied with dynamic organization of cell assemblies]"
 
 ## Set up
 You need Matlab to run this code. We tested it on Matlab R2018b.
