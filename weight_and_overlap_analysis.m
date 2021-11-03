@@ -24,9 +24,9 @@ inp_neuron_num = 400;
 exc_neuron_num = 800; 
 
 inp_exc_ini = 30;
-exc_exc_ini = 5; 
+exc_exc_ini = 10; 
 exc_inh_ini = 5;
-inh_exc_ini = 25; 
+inh_exc_ini = 30; 
 inh_inh_ini = 5;
 exc_ref_mu = 20;
 

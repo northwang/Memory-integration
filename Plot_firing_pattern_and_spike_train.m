@@ -32,9 +32,9 @@ inp_neuron_num = 400;
 exc_neuron_num = 800; 
 
 inp_exc_ini = 30;
-exc_exc_ini = 5; 
+exc_exc_ini = 10; 
 exc_inh_ini = 5;
-inh_exc_ini = 25; 
+inh_exc_ini = 30; 
 inh_inh_ini = 5;
 exc_ref_mu = 20;
 
@@ -46,7 +46,7 @@ A2_minus_exc_novel = 0.02;
 A3_plus_exc_novel = 0.4;
 A3_minus_exc_novel = 0.02; 
 
-trail = 7; % Select a representative trail
+trail = 6; % Select a representative trail
 
 stim_file = ['stim\AI_shuffle_show_inp=',num2str(inp_neuron_num),'_pattern_num=',num2str(single_pattern_num),'_single_reps=',num2str(single_pattern_show_time_new),'_asso_reps=',num2str(asso_pattern_show_time_new)...
     '_test_reps=',num2str(validation_show_time),'_pattern_time=',num2str(pattern_time),'_interval_time=',num2str(interval_time),'_trail=',num2str(trail)']; 

@@ -59,9 +59,9 @@ for trail = 1:trail_num
     inp_inh_conn_rate = 0.1;
 
     inp_exc_ini = 30; 
-    exc_exc_ini = 5; 
+    exc_exc_ini = 10; 
     exc_inh_ini = 5;
-    inh_exc_ini = 25; 
+    inh_exc_ini = 30; 
     inh_inh_ini = 5;
     inp_inh_ini = 20;
 
